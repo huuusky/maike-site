@@ -19,7 +19,10 @@
     > a {
       position: relative;
       display: block;
-      padding: $nav-link-padding;
+      //padding: $nav-link-padding;
+      min-width: $nav-link-width;
+      text-align: center;
+      font-size: $nav-link-font-size;
       &:hover,
       &:focus {
         text-decoration: none;
