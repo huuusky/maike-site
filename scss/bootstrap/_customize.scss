@@ -1,0 +1,29 @@
+//
+// Customize for MaiKe site
+// --------------------------------------------------
+
+// Index page
+.app-intro {
+  padding: 100px 20px;
+
+
+}
+
+.app-intro-title {
+  border-bottom: 1px solid $table-border-color;
+  h2 {
+    color: $green-base;
+  }
+
+  p {
+    color: $gray-light;
+  }
+}
+
+.app-intro-content {
+  padding-top: 20px;
+
+  .button {
+    margin-top: 15px;
+  }
+}
