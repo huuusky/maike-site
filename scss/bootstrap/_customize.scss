@@ -3,14 +3,27 @@
 // --------------------------------------------------
 
 // Index page
-.app-intro {
+.app-intro,
+.information {
   padding: 100px 20px;
 
+  @media (max-width: $screen-phone) {
+    padding: 20px;
+  }
 
+  @media (min-width: $screen-phone) and (max-width: $screen-tablet) {
+    padding: 20px;
+  }
 }
 
-.app-intro-title {
+.app-intro-title,
+.information-title {
   border-bottom: 1px solid $table-border-color;
+
+  &.no-border {
+    border-bottom: none;
+  }
+
   h2 {
     color: $green-base;
   }
@@ -20,8 +33,13 @@
   }
 }
 
-.app-intro-content {
+.app-intro-content,
+.information-content {
   padding-top: 20px;
+
+  &.no-padding {
+    padding-top: 0;
+  }
 
   .button {
     margin-top: 15px;
