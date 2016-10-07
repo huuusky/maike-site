@@ -1,0 +1,23 @@
+{
+  "name": "maike-site",
+  "version": "1.0.0",
+  "description": "Repo for the maikezhongguo.com site",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp default"
+  },
+  "keywords": [
+    "麦客中国"
+  ],
+  "author": "Li kun",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "pump": "^1.0.1"
+  }
+}
